@@ -11,30 +11,18 @@ public class JogoDaVelha {
         jogada = 1;
     }
 
-    /**
-     * @return the jogoVelha
-     */
     public char[][] getJogoVelha() {
         return jogoVelha;
     }
 
-    /**
-     * @param jogoVelha the jogoVelha to set
-     */
     public void setJogoVelha(char[][] jogoVelha) {
         this.jogoVelha = jogoVelha;
     }
-
-    /**
-     * @return the jogada
-     */
+    
     public int getJogada() {
         return jogada;
     }
-
-    /**
-     * @param jogada the jogada to set
-     */
+    
     public void setJogada(int jogada) {
         this.jogada = jogada;
     }
